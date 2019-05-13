@@ -3,7 +3,19 @@ class App extends React.Component {
     return (
       <div>
         <h1> Slot Machines </h1>
-				<Slot />
+				<Slot 
+        s1='🍑'
+        s2='🍌'
+        s3='🍆'/>
+        <Slot 
+        s1='🍌'
+        s2='🍓'
+        s3='🍌'/>
+        <Slot 
+        s1='🍆'
+        s2='🍆'
+        s3='🍆'
+        />
       </div>
     )
   }
